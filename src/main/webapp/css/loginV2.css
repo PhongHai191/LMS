@@ -1,0 +1,93 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 10, 2023, 10:56:56 AM
+    Author     : Nguyen Quoc Trumg
+*/
+
+
+/*=========================
+        All css
+==========================*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900|Rubik:300,400,500,700,900');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Poppins";
+    background: #39435C;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Poppins", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+}
+.form button {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: red;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+    background: #fc1239!important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #234666;
+    text-decoration: none;
+}
+
+.gg a {
+    color: white;
+    text-decoration: none;   
+}
+
+.gg {
+    background: #fc1239!important;
+}

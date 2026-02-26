@@ -1,0 +1,48 @@
+/* register.css */
+
+/* Style the registration page container */
+body {
+    background: linear-gradient(45deg, #ff6b6b, #007bff); /* Màu nền gradient */
+    padding-top: 50px;
+}
+
+.registration-page {
+    background-color: rgba(255, 255, 255, 0.9); /* Màu nền cho toàn bộ trang */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.registration-page:hover {
+    background-color: rgba(255, 255, 255, 0.7); /* Màu nền khi hover */
+}
+
+/* Style the registration form */
+.registration-form {
+    background-color: #bb87f1; /* Màu nền cho form */
+    padding: 30px;
+    border-radius: 200px; /* Border tròn */
+    border: 2px solid #549ff6; /* Đường viền */
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 1s ease; /* Hiệu ứng chuyển đổi đổ bóng */
+}
+
+.registration-form:hover {
+    box-shadow: 0 0 400px rgba(0, 0, 0, 0.2); /* Đổ bóng khi hover */
+}
+
+.card-title {
+    color: #007bff; /* Màu cho tiêu đề form */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Màu nền cho nút Register */
+    border-color: #007bff; /* Đường viền cho nút Register */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền và đường viền */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Màu nền khi hover nút Register */
+    border-color: #0056b3; /* Đường viền khi hover nút Register */
+}
